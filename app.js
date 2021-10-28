@@ -4,22 +4,22 @@ let playerLives =6;
 
 playerLivesCount.textContent = playerLives;
 const getData = () => [
-    { imgSrc: "./pic.png", name: "PIC"},
-    {imgSrc: "./pic2.png", name: "PIC2"},
-    {imgSrc: "./pic3.png", name: "PIC3."},
-    {imgSrc: "./pic4.png", name: "PIC4"},
-    { imgSrc: "./pic.png", name: "PIC"},
-    {imgSrc: "./pic4.png", name: "PIC4"},
-    {imgSrc: "./pic2.png", name: "PIC2"},
-    {imgSrc: "./pic3.png", name: "PIC3"},
-    {imgSrc: "./pic5.png", name: "PIC5"},
-    {imgSrc: "./pic6.png", name: "PIC6"},
-    {imgSrc: "./pic7.png", name: "PIC7"},
-    {imgSrc: "./pic8.png", name: "PIC8"},
-    {imgSrc: "./pic6.png", name: "PIC6"},
-    {imgSrc: "./pic8.png", name: "PIC8"},
-    {imgSrc: "./pic5.png", name: "PIC5"},
-    {imgSrc: "./pic7.png", name: "PIC7"},
+    { imgSrc: ".pic.png", name: "PIC"},
+    {imgSrc: ".pic2.png", name: "PIC2"},
+    {imgSrc: ".pic3.png", name: "PIC3."},
+    {imgSrc: ".pic4.png", name: "PIC4"},
+    { imgSrc: ".pic.png", name: "PIC"},
+    {imgSrc: ".pic4.png", name: "PIC4"},
+    {imgSrc: ".pic2.png", name: "PIC2"},
+    {imgSrc: ".pic3.png", name: "PIC3"},
+    {imgSrc: ".pic5.png", name: "PIC5"},
+    {imgSrc: ".pic6.png", name: "PIC6"},
+    {imgSrc: ".pic7.png", name: "PIC7"},
+    {imgSrc: ".pic8.png", name: "PIC8"},
+    {imgSrc: ".pic6.png", name: "PIC6"},
+    {imgSrc: ".pic8.png", name: "PIC8"},
+    {imgSrc: ".pic5.png", name: "PIC5"},
+    {imgSrc: ".pic7.png", name: "PIC7"},
 ];
 const randomize = () => {
     const cardData = getData(); 
